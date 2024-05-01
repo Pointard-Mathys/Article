@@ -5,6 +5,15 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
+# Set work directory
+WORKDIR /app
+
+# Copy application code
+COPY . /app
+
+# Expose port for the Dash app
+EXPOSE 8050
+
 # # [Optional] Set the default user
 # ARG USERNAME=2va2s
 # ARG USER_UID=1000

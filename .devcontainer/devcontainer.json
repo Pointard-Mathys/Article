@@ -1,7 +1,7 @@
 {
     "name": "Projet-Charif",
     "build": {"dockerfile": "Dockerfile"},
-    "forwardPorts": [5000],
+    "forwardPorts": [5000, 8050],
     "settings": { 
         "terminal.integrated.shell.linux": "/bin/bash"
     },
