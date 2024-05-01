@@ -1,0 +1,19 @@
+```
+dtm: C'est un horodatage UTC correspondant au début de chaque période de demi-heure. Cela permet de savoir à quel moment chaque observation a été faite.
+
+MIP1 (Market Index Price): C'est le prix moyen pondéré par le volume des transactions effectuées sur le marché. Il est exprimé en £ par mégawattheure (MWh). Cela donne une indication du prix de l'électricité sur le marché.
+
+DA_Price3 (Day-ahead auction price): Il s'agit du prix de l'enchère de la veille, spécifiquement le "Prix de Référence du Marché Intermittent". Ce prix est fixé pour les transactions d'électricité prévues pour le jour suivant. Il est également mesuré en £ par MWh.
+
+SS_Price1 (Single System Price): C'est le prix de l'électricité pour un système individuel, mesuré en £ par MWh. Cela peut être différent du prix du marché global en raison de facteurs locaux ou spécifiques au système.
+
+Solar_MW2 (Solar generation): C'est la production d'électricité à partir de sources solaires, mesurée en mégawatts (MW). Cela représente la quantité d'électricité produite par les installations solaires.
+
+Solar_capacity_mwp2 (Estimate of total installed PV capacity): C'est une estimation de la capacité totale installée de production d'électricité photovoltaïque (PV) dans la région PES 10. Elle est exprimée en mégawatts crête (MWcrête) et inclut une estimation de la dégradation des performances.
+
+Solar_installedcapacity_mwp2 (Estimate of total installed PV capacity): C'est une estimation de la capacité totale installée de production d'électricité photovoltaïque (PV) dans la région PES 10, mesurée en mégawatts crête (MWcrête). Cela donne une idée de la capacité de production d'électricité solaire installée dans la région.
+
+Wind_MW1 (Power production at Hornsea 1 wind farm): C'est la production d'électricité à partir de l'éolien, spécifiquement à partir du parc éolien de Hornsea 1, mesurée en mégawatts (MW). Cela représente la quantité d'électricité produite par ce parc éolien spécifique.
+
+boa_MWh1 (Net-volume of bid and offer acceptance volumes at Hornsea 1): C'est le volume net des offres et des acceptations d'offres au parc éolien de Hornsea 1, mesuré en mégawattheures (MWh). Cela peut refléter l'activité commerciale et les fluctuations de l'offre et de la demande à ce parc éolien spécifique.
+```
