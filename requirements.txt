@@ -9,3 +9,4 @@ keras>=2.6.0
 sqlalchemy>=1.4.0
 psycopg2-binary>=2.9.0
 pymongo[srv]==3.11
+seaborn==0.13.1
