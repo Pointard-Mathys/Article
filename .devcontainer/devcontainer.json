@@ -1,0 +1,15 @@
+{
+    "name": "Projet-Charif",
+    "build": {"dockerfile": "Dockerfile"},
+    "forwardPorts": [5000],
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+    ],
+    "postCreateCommand": "pip install -r requirements.txt",
+    "workspaceFolder": "/workspace",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind"
+}
